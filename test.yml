@@ -80,7 +80,4 @@ logging:
       springframework:
         jdbc:
           core: DEBUG
-#to see params also set below property
-        jdbc:
-          core: TRACE
 ---
