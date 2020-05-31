@@ -65,7 +65,7 @@ spring:
       url:
         jdbc: postgresql://78.46.69.89:10691/dev_simpletruckeld
     username: postgres
-    password: ENC(v/Z/wWT0+EwR3BjL8tuknrf0J2aBZXbA)
+    password: {cipher}AQA63HqA6QhWsksnqv1WhpPaMwW+jRCTRYNMVFhsPr53nwdIM2Obu7lKa7YO+pxSXKmOolW1tE/PonWAToqsui7yAnfDFKFyXIQ2LqvA1pHEejbje2bho7BRTvqvDXa6fp3rSzLOpkZ47a8VyiYuvSxhTlk/FNGUmlPWrj188W7Nj4/LO4wCrPaEuEagsIhJ8/OPAkmNzIDyUToSdJDMPyx1V2SsjssKDsL3BNHxI00vcsESTD0sl0xCzukmG4y0vvL/l0JdEHVXykJUToYfmPzRppcPubkHaqYIvpbfLbTm7iD7doGC8/hh7SAUPmMaPNZ/3xz+NLIKLWDTDNJ+cK/IUT8TDhKveiGvH6YhE8f7tmZJ/cvvOEQrqxharLat+2U=
 
 hibernate:
   show_sql: false
