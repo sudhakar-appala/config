@@ -22,19 +22,41 @@ spring:
 #default auto-commit behavior. 
       auto-commit: true 
 
-driver.geo.location.scheduler.enabled=true
-driver.geo.location.scheduler.fixed.delay=3000
-driver.geo.location.scheduler.initial.delay=10000
+driver:
+  geo:
+    location:
+      scheduler:
+        enabled: true
+        fixed:
+          delay: 3000
+        initial:
+          delay: 10000
+  notvalid:
+    geo:
+      location:
+        scheduler:
+          enabled: true
+          fixed:
+            delay: 60000
+          initial:
+            delay: 10000
 
-driver.notvalid.geo.location.scheduler.enabled=true
-driver.notvalid.geo.location.scheduler.fixed.delay=60000
-driver.notvalid.geo.location.scheduler.initial.delay=10000
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+    beans:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: *
+        exclude: shutdown
 
-management.endpoint.health.show-details=ALWAYS
-management.endpoints.web.exposure.include=*
-management.endpoints.web.exposure.exclude=shutdown
-management.endpoint.beans.enabled=true
 
-hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
-entitymanager.packagesToScan: com.triesten.eld.domain
-hibernate.default_schema: public
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
+  default_schema: public
+entitymanager:
+  packagesToScan: com.triesten.eld.domain
+
