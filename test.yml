@@ -7,7 +7,6 @@ spring:
           new_generator_mappings: false
 
 #maximum number of milliseconds that a client will wait for a connection
-spring:
   datasource:
     hikari:
       connection-timeout: 20000 
