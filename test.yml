@@ -81,3 +81,24 @@ logging:
         jdbc:
           core: DEBUG
 ---
+spring:
+    profiles: dev
+    datasource:
+      url:
+        jdbc: postgresql://78.46.69.89:10691/dev_simpletruckeld
+    username: postgres
+    password: ENC(v/Z/wWT0+EwR3BjL8tuknrf0J2aBZXbA)
+
+hibernate:
+  show_sql: false
+logging:
+  level:
+    com:
+      triesten:
+        eld: INFO
+    org: 
+      hibernate:
+        SQL: INFO
+      springframework:
+        jdbc:
+          core: INFO
