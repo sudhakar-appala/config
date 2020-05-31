@@ -1,0 +1,40 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        id:
+          new_generator_mappings=false
+
+#maximum number of milliseconds that a client will wait for a connection
+spring:
+  datasource:
+    hikari:
+      connection-timeout=20000 
+#minimum number of idle connections maintained by HikariCP in a connection pool
+      minimum-idle= 1 
+#maximum pool size
+      maximum-pool-size=10
+#maximum idle time for connection 
+      idle-timeout=300000 
+# maximum lifetime in milliseconds of a connection in the pool after it is closed.
+      max-lifetime=600000
+#default auto-commit behavior. 
+      auto-commit=true 
+
+driver.geo.location.scheduler.enabled=true
+driver.geo.location.scheduler.fixed.delay=3000
+driver.geo.location.scheduler.initial.delay=10000
+
+driver.notvalid.geo.location.scheduler.enabled=true
+driver.notvalid.geo.location.scheduler.fixed.delay=60000
+driver.notvalid.geo.location.scheduler.initial.delay=10000
+
+management.endpoint.health.show-details=ALWAYS
+management.endpoints.web.exposure.include=*
+management.endpoints.web.exposure.exclude=shutdown
+management.endpoint.beans.enabled=true
+
+hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+entitymanager.packagesToScan: com.triesten.eld.domain
+hibernate.default_schema: public
