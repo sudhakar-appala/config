@@ -1,9 +1,9 @@
 spring:
   jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        id:
+     properties:
+       hibernate:
+         dialect: org.hibernate.dialect.PostgreSQLDialect
+         id:
           new_generator_mappings: false
 
 #maximum number of milliseconds that a client will wait for a connection
@@ -60,11 +60,11 @@ entitymanager:
   packagesToScan: com.triesten.eld.domain
 ---
 spring:
-    profiles: local
-    datasource:
+   profiles: local
+   datasource:
       url: jdbc:postgresql://78.46.69.89:10691/dev_simpletruckeld
-    username: postgres
-    password: WRaw7At#e
+      username: postgres
+      password: WRaw7At#e
 
 
 hibernate:
