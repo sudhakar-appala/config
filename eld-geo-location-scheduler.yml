@@ -105,14 +105,14 @@ spring:
 
 ---
 spring:
-   profiles: simpletruckeld_prod
+   profiles: simpletruckeld-prod
    datasource:
       url: jdbc:postgresql://db1.simpletruckeld.com:10691/simpletruckeld
       username: postgres
       password: "{cipher}AQAs2uPbLkQ6P46VEB7sEaxNvvUuUmu+sUIMfvqox2m7QBVLMeD4WdTw5gaOjRBX7/5th2rnNuU1dAfHdGdEXkNsBHDwbjEH1efaiLfnLguBol3QIL7Zoik3nBmJ2pE+j1mBXR/Q361kKPH5rnrjJNR/pCz5/YPmKmgXfyL3YsLP+gRON1NlQCEoBLGw7HthYjnWc7Vf2Bms5i0dXnIkzFsBy0sPIu2uGwV+j2IAHEcFRu5nL9asfUf4Z0H0NIpi9U2rqFCYRyiv2GOFWp2i/50AtuwnhppzqekNKoYJyhkcJPplOy69HQ8W5jQCa3ZCdHzya299/HqnbPe/l1wIPOQ8dQr3o3az77T7BdXiPE7pUKnfVCHUMzcaN4oAFTCXzUQ="
 ---
 spring:
-   profiles: simpleelog_prod
+   profiles: simpleelog-prod
    datasource:
       url: jdbc:postgresql://localhost:10691/simpleelog
       username: postgres
@@ -120,14 +120,14 @@ spring:
 
 ---
 spring:
-   profiles: eldmandateplus_prod
+   profiles: eldmandateplus-prod
    datasource:
       url: jdbc:postgresql://eldmandate.cxa19pzhi8hp.us-east-2.rds.amazonaws.com:5432/eldmandate_app_live?autoReconnect=true
       username: postgres
       password: "{cipher}AQAhHgNc8j+AzAoiiQDqOUA5ho5WqF21VfjXDEjbQhD34Uecd+xDWLE4DoMklHJE1insnJolFnfh8kbtCmWE5pHAOKPiStBQCaFcgVL4yoyVX6sf4FWlZDkBuAHIvRnqGHhQxq5atjAmEBN4LYhJG+HnRLYw4xAT4JGy/tJnP1v3l9FkUJc3k7CQx6wSfCGgWM4uVZ7VdbupRTwnURQg8x8TWfLLtAwimNWXPEuzxq7hixKk3WSIUBMfw9wGt2AX6DrWa00qvrBcMCJ5pz5f/sEPO/DvbXBoRbIYw3YgGqfxpguMEfGgbmGcynfDyQrC/q9mhvKD2U1led1/yXtn3X6W0Gg+RZNBcWjOI41CQ+RQc7tugjjK0dti8D+WWcdcUMM="
 ---
 spring:
-   profiles: nationwideeld_prod
+   profiles: nationwideeld-prod
    datasource:
       url: jdbc:postgresql://localhost:10691/nationwideeld?autoReconnect=true
       username: postgres
