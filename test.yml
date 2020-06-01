@@ -64,7 +64,7 @@ spring:
     datasource:
       url: jdbc:postgresql://78.46.69.89:10691/dev_simpletruckeld
     username: postgres
-    password: "{cipher}AQAqLA7SVekGUFBb4D9flfeK+7JFG1NpkYTzahgUlwuN+DcpxuOkr7rZzC+1yhnTSPRrHufTdT8ev52hYs1v/JWJ0ZNs4YLIOIbGUm6O+LSVHVHjxbXJMOpwP6NH+XmJ0HGrX7K1ACpnea8lrFk6pm9IdxCbslViz9UC4mANBruuFboR1fL3g9/07Mm5Dx7s3qar6Rlvhn+CfIpkaAGLgM3GteOpFfQM7a+e+lBB3iXsi0aLQoUROMHBhjd7NVsdCkXepjevV+2i4QcIrTsqW8DmzFiP/V2flNs8/Lr1IzrUjrQdOvW5W5/q/AHmhgS9iQLbpT56hRa19oNvTJQwrcVy6Gns4laaJW7t8O+CAFKAedK21naQ1hq2++rNh7ldlGk="
+    password: '{cipher}AQAqLA7SVekGUFBb4D9flfeK+7JFG1NpkYTzahgUlwuN+DcpxuOkr7rZzC+1yhnTSPRrHufTdT8ev52hYs1v/JWJ0ZNs4YLIOIbGUm6O+LSVHVHjxbXJMOpwP6NH+XmJ0HGrX7K1ACpnea8lrFk6pm9IdxCbslViz9UC4mANBruuFboR1fL3g9/07Mm5Dx7s3qar6Rlvhn+CfIpkaAGLgM3GteOpFfQM7a+e+lBB3iXsi0aLQoUROMHBhjd7NVsdCkXepjevV+2i4QcIrTsqW8DmzFiP/V2flNs8/Lr1IzrUjrQdOvW5W5/q/AHmhgS9iQLbpT56hRa19oNvTJQwrcVy6Gns4laaJW7t8O+CAFKAedK21naQ1hq2++rNh7ldlGk='
 #WRaw7At#e
 
 hibernate:
