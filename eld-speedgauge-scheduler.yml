@@ -192,8 +192,8 @@ speedgauge:
                delay: 10000
    crumbs:
      api: https://sgapi.speedgauge.net/api/customer/{0}/staged-crumb/NEW
-   username: sgapi.test@simpletruckeld.com
-   password: "{cipher}AQCNpz0oDe6aA1PNLViC7zJWWUQUVX5A50VH7v5sz6+bdH+3jgfWLrt/oyJ3syYRndtUwMEsTqiumLGmxlZ4XFgMu1tHTppDOh/0/4JBnugIz+cXFRs5c3BKCVpMRndkNuuhq/VrYYclVqJ7ls3ttG6r/DS2FwLr3dIK56El4sGgJjUu+GLMM4QmmBmm/aOarS6C9+bYEGH0D5f4QOle1y/LmlUpW3l//wGbueMo3B06Wn6k9DdG/LLOd1kf75YpIbf8HEvQmclv7djm0427YlbS0GehV640T6vwBCXo0o4vCKjORZ0r8bcPSwjNXk+caydIgT+B1R3cdptZLX25cV835NudJ48oyaTy7UhF9DIeb8Pay9vpokbaZ+y1B8xUEro="
+   username: sgapi.prod@simpletruckeld.com
+   password: "{cipher}AQAJEBzQSSeQO0Fytjy+xqAXEjTY9Ujy4OMqq9kCKk+LKQ1D5pME1ud88PeJGAdZvkt1pt6iEALbFHyOBycr9Q4i66aM0pHoPGNxpdYmF1O0oRGCR6moMNvIjg5Ssm7Tbw25lTbKqAm3NHP/lYp7PfBX8/znXokBtGEPR95OAwDzogP347dd7WTigrUbWUMMrFODZTXGWR8CUo84d1NCvG72H06ioPz/7HOc/YmIoIAQkBZAdqy2P3u+wmIrO+YETnqGw3vW6Aik9YM+WSfNI1F3TpdJe36LWPyY0AEaG/aSiE+T12XFOx4KgWvPlpQhF3mdow78hLkNpG87Q49ZpgryPZleh6Sx5L6zmEHy0QXJxR7v5v386PXIelDxK/J1jrY="
 
 ---
 spring:
@@ -240,8 +240,8 @@ speedgauge:
                delay: 10000
    crumbs:
      api: https://sgapi.speedgauge.net/api/customer/{0}/staged-crumb/NEW
-   username: sgapi.test@simpletruckeld.com
-   password: "{cipher}AQCNpz0oDe6aA1PNLViC7zJWWUQUVX5A50VH7v5sz6+bdH+3jgfWLrt/oyJ3syYRndtUwMEsTqiumLGmxlZ4XFgMu1tHTppDOh/0/4JBnugIz+cXFRs5c3BKCVpMRndkNuuhq/VrYYclVqJ7ls3ttG6r/DS2FwLr3dIK56El4sGgJjUu+GLMM4QmmBmm/aOarS6C9+bYEGH0D5f4QOle1y/LmlUpW3l//wGbueMo3B06Wn6k9DdG/LLOd1kf75YpIbf8HEvQmclv7djm0427YlbS0GehV640T6vwBCXo0o4vCKjORZ0r8bcPSwjNXk+caydIgT+B1R3cdptZLX25cV835NudJ48oyaTy7UhF9DIeb8Pay9vpokbaZ+y1B8xUEro="
+   username: sgapi.prod@simpletruckeld.com
+   password: "{cipher}AQAJEBzQSSeQO0Fytjy+xqAXEjTY9Ujy4OMqq9kCKk+LKQ1D5pME1ud88PeJGAdZvkt1pt6iEALbFHyOBycr9Q4i66aM0pHoPGNxpdYmF1O0oRGCR6moMNvIjg5Ssm7Tbw25lTbKqAm3NHP/lYp7PfBX8/znXokBtGEPR95OAwDzogP347dd7WTigrUbWUMMrFODZTXGWR8CUo84d1NCvG72H06ioPz/7HOc/YmIoIAQkBZAdqy2P3u+wmIrO+YETnqGw3vW6Aik9YM+WSfNI1F3TpdJe36LWPyY0AEaG/aSiE+T12XFOx4KgWvPlpQhF3mdow78hLkNpG87Q49ZpgryPZleh6Sx5L6zmEHy0QXJxR7v5v386PXIelDxK/J1jrY="
 
 ---
 spring:
@@ -288,8 +288,8 @@ speedgauge:
                delay: 10000
    crumbs:
      api: https://sgapi.speedgauge.net/api/customer/{0}/staged-crumb/NEW
-   username: sgapi.test@simpletruckeld.com
-   password: "{cipher}AQCNpz0oDe6aA1PNLViC7zJWWUQUVX5A50VH7v5sz6+bdH+3jgfWLrt/oyJ3syYRndtUwMEsTqiumLGmxlZ4XFgMu1tHTppDOh/0/4JBnugIz+cXFRs5c3BKCVpMRndkNuuhq/VrYYclVqJ7ls3ttG6r/DS2FwLr3dIK56El4sGgJjUu+GLMM4QmmBmm/aOarS6C9+bYEGH0D5f4QOle1y/LmlUpW3l//wGbueMo3B06Wn6k9DdG/LLOd1kf75YpIbf8HEvQmclv7djm0427YlbS0GehV640T6vwBCXo0o4vCKjORZ0r8bcPSwjNXk+caydIgT+B1R3cdptZLX25cV835NudJ48oyaTy7UhF9DIeb8Pay9vpokbaZ+y1B8xUEro="
+   username: sgapi.prod@simpletruckeld.com
+   password: "{cipher}AQAJEBzQSSeQO0Fytjy+xqAXEjTY9Ujy4OMqq9kCKk+LKQ1D5pME1ud88PeJGAdZvkt1pt6iEALbFHyOBycr9Q4i66aM0pHoPGNxpdYmF1O0oRGCR6moMNvIjg5Ssm7Tbw25lTbKqAm3NHP/lYp7PfBX8/znXokBtGEPR95OAwDzogP347dd7WTigrUbWUMMrFODZTXGWR8CUo84d1NCvG72H06ioPz/7HOc/YmIoIAQkBZAdqy2P3u+wmIrO+YETnqGw3vW6Aik9YM+WSfNI1F3TpdJe36LWPyY0AEaG/aSiE+T12XFOx4KgWvPlpQhF3mdow78hLkNpG87Q49ZpgryPZleh6Sx5L6zmEHy0QXJxR7v5v386PXIelDxK/J1jrY="
 
 ---
 spring:
@@ -336,7 +336,7 @@ speedgauge:
                delay: 10000
    crumbs:
      api: https://sgapi.speedgauge.net/api/customer/{0}/staged-crumb/NEW
-   username: sgapi.test@simpletruckeld.com
-   password: "{cipher}AQCNpz0oDe6aA1PNLViC7zJWWUQUVX5A50VH7v5sz6+bdH+3jgfWLrt/oyJ3syYRndtUwMEsTqiumLGmxlZ4XFgMu1tHTppDOh/0/4JBnugIz+cXFRs5c3BKCVpMRndkNuuhq/VrYYclVqJ7ls3ttG6r/DS2FwLr3dIK56El4sGgJjUu+GLMM4QmmBmm/aOarS6C9+bYEGH0D5f4QOle1y/LmlUpW3l//wGbueMo3B06Wn6k9DdG/LLOd1kf75YpIbf8HEvQmclv7djm0427YlbS0GehV640T6vwBCXo0o4vCKjORZ0r8bcPSwjNXk+caydIgT+B1R3cdptZLX25cV835NudJ48oyaTy7UhF9DIeb8Pay9vpokbaZ+y1B8xUEro="
+   username: sgapi.prod@simpletruckeld.com
+   password: "{cipher}AQAJEBzQSSeQO0Fytjy+xqAXEjTY9Ujy4OMqq9kCKk+LKQ1D5pME1ud88PeJGAdZvkt1pt6iEALbFHyOBycr9Q4i66aM0pHoPGNxpdYmF1O0oRGCR6moMNvIjg5Ssm7Tbw25lTbKqAm3NHP/lYp7PfBX8/znXokBtGEPR95OAwDzogP347dd7WTigrUbWUMMrFODZTXGWR8CUo84d1NCvG72H06ioPz/7HOc/YmIoIAQkBZAdqy2P3u+wmIrO+YETnqGw3vW6Aik9YM+WSfNI1F3TpdJe36LWPyY0AEaG/aSiE+T12XFOx4KgWvPlpQhF3mdow78hLkNpG87Q49ZpgryPZleh6Sx5L6zmEHy0QXJxR7v5v386PXIelDxK/J1jrY="
 
  
