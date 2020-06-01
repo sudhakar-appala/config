@@ -64,7 +64,7 @@ spring:
    datasource:
       url: jdbc:postgresql://78.46.69.89:10691/dev_simpletruckeld
       username: postgres
-      password: '{cipher}d678cc095aeabdbfb18c6998dc467c25e01b513a91f57e612f39a9fde92a3af8'
+      password: "{cipher}d678cc095aeabdbfb18c6998dc467c25e01b513a91f57e612f39a9fde92a3af8"
 
 
 hibernate:
