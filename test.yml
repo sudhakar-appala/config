@@ -56,8 +56,20 @@ management:
 hibernate:
   dialect: org.hibernate.dialect.PostgreSQLDialect
   default_schema: public
+  show_sql: false
 entitymanager:
   packagesToScan: com.triesten.eld.domain
+logging:
+  level:
+    com:
+      triesten:
+        eld: INFO
+    org: 
+      hibernate:
+        SQL: INFO
+      springframework:
+        jdbc:
+          core: INFO
 ---
 spring:
    profiles: local
@@ -81,3 +93,42 @@ logging:
         jdbc:
           core: DEBUG
 
+---
+spring:
+   profiles: dev
+   datasource:
+      url: jdbc:postgresql://78.46.69.89:10691/dev_simpletruckeld
+      username: postgres
+      password: "{cipher}AQB7sjTQ3KYT0Wjlf9qqAXnrcElFCK2UydluuZMZxYeBMeBmSe1Dmp+njDkWC1t8bar5PVsYUo8v5yU+/DDWEn4WcuTJXlG52XuORqVE7OG1hiO/xLdXworih2kHusI692KVrZZWp8YNbdG0+Wiw8XDl/IKA88l24TBDgzHcE7sBERMlA7lerYiMqNTVJwbUSC5y+iEHjpEp3k/XGkuIHX1asr5f374wpAnIPAoUbjWU1L5NrfT1ZxXU2belUTpSaZpALu/fMgbz3Cd1vW7+PNv0JPNvYP/JsB0Uz08b3NnLcIs38FGji71itXET3UFhqOpYm/3gdOmVvm5T6LWe+loLmhNOjJvQMwiMoccMrWgge12dUbRhy4cko+Jp7Qf7ECU="
+
+---
+spring:
+   profiles: simpletruckeld_prod
+   datasource:
+      url: jdbc:postgresql://db1.simpletruckeld.com:10691/simpletruckeld
+      username: postgres
+      password: "{cipher}AQAs2uPbLkQ6P46VEB7sEaxNvvUuUmu+sUIMfvqox2m7QBVLMeD4WdTw5gaOjRBX7/5th2rnNuU1dAfHdGdEXkNsBHDwbjEH1efaiLfnLguBol3QIL7Zoik3nBmJ2pE+j1mBXR/Q361kKPH5rnrjJNR/pCz5/YPmKmgXfyL3YsLP+gRON1NlQCEoBLGw7HthYjnWc7Vf2Bms5i0dXnIkzFsBy0sPIu2uGwV+j2IAHEcFRu5nL9asfUf4Z0H0NIpi9U2rqFCYRyiv2GOFWp2i/50AtuwnhppzqekNKoYJyhkcJPplOy69HQ8W5jQCa3ZCdHzya299/HqnbPe/l1wIPOQ8dQr3o3az77T7BdXiPE7pUKnfVCHUMzcaN4oAFTCXzUQ="
+---
+spring:
+   profiles: simpleelog_prod
+   datasource:
+      url: jdbc:postgresql://localhost:10691/simpleelog
+      username: postgres
+      password: "{cipher}AQCNmcUoZ1eZ/ogm3AT2nxkePWgihssKwKiEKV48F5l3SUiVUvciVIdY7FamRniEHGipeVHNgfiUctc16+lQg9AnfhMNu2JGuZP27IOzb85yk6DkAnsCjoev/U5qGYqTlzHNoO7tlo8HjPO3soUVuHM4dWY4vn8guK8oXkUR0fQninQkW9Dh2LyKS14CfCEMTWIxMXmP3fMjsYv0VgsQaIKq/pUvNIEX7/GThdGYZ09ocbtsjAcxjRfx2TdOPpSVFUwW0+gyLZJBFEbE7oxD1vsWRLaG86GW+AD2Qsn0/vrJ4UnXiQY9cWIEGROvITpW0NN0rMOyA2tmYFXfAX6h/JNlggEr4MGT+oQQpnMT+gQNTe8NpLT2xnwPl6vUQkCUO08="
+
+---
+spring:
+   profiles: eldmandateplus_prod
+   datasource:
+      url: jdbc:postgresql://eldmandate.cxa19pzhi8hp.us-east-2.rds.amazonaws.com:5432/eldmandate_app_live?autoReconnect=true
+      username: postgres
+      password: "{cipher}AQAhHgNc8j+AzAoiiQDqOUA5ho5WqF21VfjXDEjbQhD34Uecd+xDWLE4DoMklHJE1insnJolFnfh8kbtCmWE5pHAOKPiStBQCaFcgVL4yoyVX6sf4FWlZDkBuAHIvRnqGHhQxq5atjAmEBN4LYhJG+HnRLYw4xAT4JGy/tJnP1v3l9FkUJc3k7CQx6wSfCGgWM4uVZ7VdbupRTwnURQg8x8TWfLLtAwimNWXPEuzxq7hixKk3WSIUBMfw9wGt2AX6DrWa00qvrBcMCJ5pz5f/sEPO/DvbXBoRbIYw3YgGqfxpguMEfGgbmGcynfDyQrC/q9mhvKD2U1led1/yXtn3X6W0Gg+RZNBcWjOI41CQ+RQc7tugjjK0dti8D+WWcdcUMM="
+---
+spring:
+   profiles: nationwideeld_prod
+   datasource:
+      url: jdbc:postgresql://localhost:10691/nationwideeld?autoReconnect=true
+      username: postgres
+      password: "{cipher}AQBJoX8HcnBzoT9WCXCYGwBuDaJUyJbEWQYiIX9YcDJdVrTgt4yRMeTn92HsM2c4aTn5gAZDmopENtFMIchShDnnuPX5eWK3XxYKQmqHDdCknD0QYxJ6fTeWU3F3Xi+7N0m2fEay0WuIzWx6oj2186unMcem6Ul2iqlchvZGN4+NY4YiUXx5ZMuiKpq2PplhAc7YLAPjoaUOgVmGtnchIWLwtrkn5neXuE5OdeiKUf2Gq3Kn50avhS1qWc45+qjn9K9M6W7/WQP1KDVzWYjTfygHtQSmfNoiY0mKat3BSv1TMTx6tEtjBN0l3HH7Rt2MbghAdJ/Imzi64jQR8TABey6lbFHjcE1ug+FBBmRSqrkxmweG9AC8dTDhmq3T2IRXoJk="
+
+ 
